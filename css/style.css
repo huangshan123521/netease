@@ -1,0 +1,284 @@
+.content{
+	width: 80%;
+	margin: 0 auto;
+}
+.activity{
+	height: 36px;
+	width: 100%;
+	background-color: #eaeaea;
+	line-height: 36px;
+	font-size: 10px;
+}
+span{
+	color: #666;
+	font-size: 12px; 
+}
+a{
+	color: #666;
+}
+p{
+	color: #666;
+	font-size: 14px;
+	line-height: 2;
+
+}
+.activity a{
+	color: #39a030;
+}
+.header{
+	/*height: 125px;*/
+	padding-top:39px;
+	padding-bottom: 67px;
+}
+.header-logo img{
+	padding-right: 5px; 
+	border-right: 2px solid #21a557;
+	margin-bottom: -2px;
+	margin-right: 5px;
+}
+.header-logo span{
+	color: #333;
+	font-weight: bolder;
+	font-size: 22px;
+}
+.attention{
+	margin:0 5px 0 50px;
+	padding: 5px 10px;
+	background-color: #21a557;
+	border-radius:5px;
+	color: #fff;
+	font-size: 12px; 
+}
+.attention:hover{
+	margin:0 5px 0 50px;
+	padding: 5px 10px;
+	background-color: #39a030;
+	border-radius:5px;
+	color: #fff;
+	font-size: 12px; 
+}
+.header-nav ul,.header-nav li{
+	display: inline;
+	color: #666;
+	padding-right: 10px;
+	font-size: 14px;
+}
+.header-nav{
+	width: 30%;
+	float: right;
+}
+.header-nav a:hover{
+	color: #39a030;
+}	
+.header-nav img{
+	margin-bottom: -5px;
+}
+.header-nav img:hover{
+	background-image: url(../img/search-hover.gif);
+}
+.banner ul li img{
+	width: 100%;
+	height: 100%;
+}
+.hidden{
+	display: none;
+}
+.part {
+	width: 32%;
+	margin-bottom: 50px;
+}
+ .center{
+	padding: 0 2%;
+}
+.part img{
+margin-top: 50px;
+}
+.parts {
+padding-left: 100px;
+margin-top: -120px;
+}
+
+.title{
+	font-size: 18px;
+	line-height: 3;
+}
+.parts p a{
+	color: #39a030;
+	font-size: 12px;
+	line-height: 2;
+}
+.picture{
+	width: 100%;
+	height: 223px;
+	line-height: 223px;
+	overflow: hidden;
+}
+.picture img{
+	width: 284px;
+	height: 223px;
+}
+.article{
+	background-color: #eee;
+	width: 100%;
+	height: 1550px;
+	/*height: */
+}
+.nav-class{
+	margin: 40px 0px;
+}
+.nav-class li{
+	display: inline;
+}
+.nav-class li a{
+	background-color: #fff;
+	color: #666;
+	padding: 20px 50px;
+	line-height:20px; 
+}
+.nav-class a:hover,.nav-class a.here{
+	background-color: #39a030;
+	line-height:20px; 
+	padding: 20px 50px;
+	color: #fff;
+}
+.class{
+	width: 80%;
+}
+.classes{
+	height: 1300px;
+	overflow: hidden;
+}
+.list{
+	width: 20%;
+}
+.classpic{
+	background-color: #fff;
+	width: 222px;
+	height: 240px;
+	margin:10px 0px 10px 5px;
+	box-shadow: 0 2px 5px 0 #666;
+
+}
+.classpic p{
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+}
+.person{
+	border: 1px solid #ccc;
+	width: 50px;
+	height: 20px;
+	border-radius: 5px;
+	background-color: #eee;
+}
+.author{
+	color: #999;
+}
+.money{
+	color: #f00;
+	font-size: 18px;
+
+}
+.person span,.ranking-list span:first-child{
+	/*float: right;*/
+	margin-left: 10px;
+	line-height: 20px;
+}
+.fl .page{
+	float: right;
+	width: 300px;
+	margin-top: 30px;
+}
+.page img{
+	margin-top:10px;
+	margin-bottom: -4px;
+}
+.page span a{
+	padding: 0px 8px;
+}
+.page a:hover{
+	padding: 4px 8px;
+	background-color: #8CE0B1;
+	color: #fff;
+}
+.description{
+	background-color: #fff;
+	height: 200px;
+	text-align: center;	
+	box-shadow: 0 2px 5px 0 #666;
+}
+.description p:first-child{
+	color: #333;
+	font-size: 20px;
+	margin-top: 30px;
+	border-bottom: 1px solid #ccc;
+}
+.ranking{
+	background-color: #fff;
+	height: 1000px;
+	margin-top: 20px;
+	box-shadow: 0 2px 5px 0 #666;
+}
+.rank p{
+	/*float: left;
+	font-size: 20px;
+	border-bottom: 1px solid #ccc; 
+	padding: 10px 0px 10px 20px;*/
+	color: #333;
+	font-size: 20px;
+	margin-top: 30px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+}
+.ranking-list {
+	margin: 20px;
+}
+.des{
+	width: 50%;
+	float: right;
+	/*width: 100px;*/
+	height: 70px;
+}
+.des p{
+	font-size: 15px;
+	white-space: nowrap;
+	text-overflow:ellipsis;
+	overflow: hidden;
+}
+.des span{
+	color: #999;
+}
+.footer{
+	background-color: #2c3339;
+	height: 263px;
+}
+.message{
+	width: 40%;
+	margin: 50px 10px 10px 0px;
+}
+.message span{
+	font-size: 20px;
+	color: #39a030;
+}
+.message img{
+	margin-bottom: -3px;
+}
+.links{
+	width: 18%;
+	margin: 50px 10px 10px 0px;
+}
+.contactus,.more{
+	width: 18%;
+	margin: 50px 10px 10px 0px;
+}
+.sina-logo{
+	display: inline;
+}
+.sina{
+	margin-left: 10px;
+}
+@media screen and (max-width: 1200px) {
+    .class5{
+		display: none;
+	}
+}
